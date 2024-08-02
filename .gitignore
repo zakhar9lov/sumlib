@@ -1,0 +1,10 @@
+# bin folder
+bin/
+
+# temp
+*.log
+*.tmp
+
+# cash
+go/pkg/
+go/bin/
