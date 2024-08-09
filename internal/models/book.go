@@ -1,12 +1,12 @@
 package models
 
 type Book struct {
-	ID	       int
-	ISBN	   string
-	Title      string
-	Author     string
-	Year       int
-	Summary    string
-	CoverImage string
+	ID	       int		`json:id`
+	ISBN	   string	`json:isbn`
+	Title      string	`json:title`
+	Author     string	`json:author`
+	Year       int		`json:year`
+	Summary    string	`json:summary`
+	CoverImage string	`json:cover`
 }
 
